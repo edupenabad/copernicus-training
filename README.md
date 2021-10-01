@@ -1,6 +1,8 @@
-# Jupyter notebook tutorials on data from the Copernicus Climate Change (C3S) and Atmosphere Monitoring Service (CAMS)
+# Copernicus Climate Change (C3S) and Atmosphere Monitoring Service (CAMS) training
 
-This repository hosts Jupyter notebook training material for the [Copernicus Climate Change Service (C3S)](https://climate.copernicus.eu/) and the [Copernicus Atmosphere Monitoring Service (CAMS)](https://atmosphere.copernicus.eu/). The training is designed for everyone who is interested in data from the two Copernicus services C3S and CAMS and has the following objectives:
+This repository hosts Jupyter notebook training material for the [Copernicus Climate Change Service (C3S)](https://climate.copernicus.eu/) and the [Copernicus Atmosphere Monitoring Service (CAMS)](https://atmosphere.copernicus.eu/). 
+
+The training is designed for everyone who is interested in data from the two Copernicus services C3S and CAMS and has the following objectives:
 * to provide an `overview of C3S and CAMS datasets`
 * to showcase how data can be accessed via the [Climate Data Store (CDS)](https://cds.climate.copernicus.eu/cdsapp#!/home) and the [Atmosphere Data Store (ADS)](https://ads.atmosphere.copernicus.eu/#!/home), and
 * to offer `example applications` and `analysis workflows` for different data
@@ -8,7 +10,7 @@ This repository hosts Jupyter notebook training material for the [Copernicus Cli
 ## Course outline
 The course is structured in two main parts and each part contains introduction and data overview notebooks as well as practical workflows.
 
-### Training on data from the Copernicus Climate Change Service (C3S)
+### Training on C3S data
 
 #### Introduction and data overview notebooks
 * [100 - Climate Data Store - Introduction](./100_climate_data_store_intro.ipynb)
@@ -25,7 +27,7 @@ The course is structured in two main parts and each part contains introduction a
 
 
 
-### Training on data from the Copernicus Atmosphere Monitoring Service (CAMS)
+### Training on CAMS data
 
 #### Introduction and data overview notebooks
 * [200 - Atmosphere Data Store - Introduction](./200_atmosphere_data_store_intro.ipynb)

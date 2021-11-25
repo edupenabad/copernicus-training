@@ -5,6 +5,16 @@ Each description includes a high level outline of the training content and objec
 
 ---
 
+## 2021-11-CAMS-Data-Analysis-Tutorial
+### [Tutorial](./2021-11-CAMS-Data-Analysis-Tutorial.ipynb) on access and visualisation of CAMS global forecast and reanalysis data
+This Jupyter notebook tutorial demonstrates how to access CAMS global atmospheric composition forecasts and CAMS global reanalysis data, using the Atmosphere Data Store (ADS) API. It also shows how to use Python to create basic visualisations.
+
+The tutorial was developed for various training events in November and December 2021.
+
+Run the tutorial here: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ecmwf-projects/copernicus-training/HEAD?urlpath=lab/tree/2021-11-CAMS-Data-Analysis-Tutorial.ipynb), or view a **[rendered version here](https://nbviewer.jupyter.org/github/ecmwf-projects/copernicus-training/blob/master/2021-11-CAMS-Data-Analysis-Tutorial.ipynb)**.
+
+---
+
 ## 2021-09-CAMS-Air-Quality-Data-Access
 ### [Tutorial](./2021-09-CAMS-Air-Quality-Data-Access.ipynb) on access and visualisation of CAMS global forecast and reanalysis data
 This Jupyter notebook tutorial demonstrates how to access CAMS global atmospheric composition forecasts and CAMS global reanalysis data, using the Atmosphere Data Store (ADS) API. It also shows how to use Python to create basic visualisations.

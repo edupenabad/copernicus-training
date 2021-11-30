@@ -5,6 +5,11 @@ Each description includes a high level outline of the training content and objec
 
 ---
 
+## Jupyter notebooks for joint training in atmospheric composition
+The notebooks with the prefix "Atmos-Training" have been developed for some of the practical sessions of the joint ESA, EUMETSAT and ECMWF organised training in atmospheric composition. For more information about this event, please visit https://atmosphere.copernicus.eu/3rd-eumetsatesaecmwf-joint-training-atmospheric-composition
+
+---
+
 ## 2021-11-CAMS-Data-Analysis-Tutorial
 ### [Tutorial](./2021-11-CAMS-Data-Analysis-Tutorial.ipynb) on access and visualisation of CAMS global forecast and reanalysis data
 This Jupyter notebook tutorial demonstrates how to access CAMS global atmospheric composition forecasts and CAMS global reanalysis data, using the Atmosphere Data Store (ADS) API. It also shows how to use Python to create basic visualisations.

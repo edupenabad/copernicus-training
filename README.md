@@ -1,71 +1,55 @@
-# Jupyter notebook tutorials on C3S and CAMS data analysis
-This repository contains Jupyter notebook training material for the [Copernicus Climate Change Service (C3S)](https://climate.copernicus.eu/) and the [Copernicus Atmosphere Monitoring Service (CAMS)](https://atmosphere.copernicus.eu/). Some notebooks were produced for specific training events, but all can be used as standalone tutorials. Below is a description of each notebook, listed in reverse chronological order. 
+# Jupyter notebook tutorials for the Copernicus Climate Change and Atmosphere Monitoring Services
 
-Each description includes a high level outline of the training content and objectives, describing the tools and data presented. If a notebook was developed for a particular training event, this event is also described. At the end of each description you can find links to run the notebook in [Binder](https://mybinder.org/), in [Colab](https://colab.research.google.com/notebooks/intro.ipynb?utm_source=scs-index) and to view a rendered version in [Nbviewer](https://nbviewer.jupyter.org/).
+This repository hosts Jupyter notebook training material for the [Copernicus Climate Change Service (C3S)](https://climate.copernicus.eu/) and the [Copernicus Atmosphere Monitoring Service (CAMS)](https://atmosphere.copernicus.eu/). 
 
----
+The tutorials are designed for anyone interested in using C3S & CAMS data and has the following objectives:
+* to demonstrate how can be accessed via the [Climate Data Store (CDS)](https://cds.climate.copernicus.eu/cdsapp#!/home) and the [Atmosphere Data Store (ADS)](https://ads.atmosphere.copernicus.eu/#!/home), and
+* to offer `example applications` and `analysis workflows` for different data types
 
-## Jupyter notebooks for joint training in atmospheric composition
-The notebooks with the prefix "Atmos-Training" have been developed for some of the practical sessions of the joint ESA, EUMETSAT and ECMWF organised training in atmospheric composition. For more information about this event, please visit https://atmosphere.copernicus.eu/3rd-eumetsatesaecmwf-joint-training-atmospheric-composition
 
----
+## Tutorials on C3S data
 
-## 2021-11-CAMS-Data-Analysis-Tutorial
-### [Tutorial](./2021-11-CAMS-Data-Analysis-Tutorial.ipynb) on access and visualisation of CAMS global forecast and reanalysis data
-This Jupyter notebook tutorial demonstrates how to access CAMS global atmospheric composition forecasts and CAMS global reanalysis data, using the Atmosphere Data Store (ADS) API. It also shows how to use Python to create basic visualisations.
+#### Introduction to the Climate Data Store (CDS)
+* [Climate Data Store - Introduction](./C3S_climate-data-store.ipynb)
 
-The tutorial was developed for various training events in November and December 2021.
+#### Analysis examples - Climate reanalysis data
+* [Climate reanalysis - Tutorial on analysis of climatologies and trends in ERA5 climate reanalysis data](./C3S_climatology.ipynb)
+* [Climate reanalysis - Analysis of the September 2020 European heatwave using data from the Copernicus Climate Change Service](./C3S_heatwave-analysis.ipynb)
+* [Climate reanalysis - Tutorial on calculating a climate index for wind chill](./C3S_climate-indices.ipynb)
+* [Climate reanalysis - Tutorial sull'uso dei dati del Copernicus Climate Change Service (C3S) (*in Italian*)](./C3S_data-tutorial-italiano_2020-11.ipynb)
 
-Run the tutorial here: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ecmwf-projects/copernicus-training/HEAD?urlpath=lab/tree/2021-11-CAMS-Data-Analysis-Tutorial.ipynb), or view a **[rendered version here](https://nbviewer.jupyter.org/github/ecmwf-projects/copernicus-training/blob/master/2021-11-CAMS-Data-Analysis-Tutorial.ipynb)**.
+#### Analysis examples - Climate projections
+* [Climate projections - CMIP6 Global climate projections](./C3S_CMIP6-climate-projections.ipynb)
+* [Climate projections - CORDEX Regional climate projections](./C3S_CORDEX-regional-climate-projections.ipynb)
 
----
 
-## 2021-09-CAMS-Air-Quality-Data-Access
-### [Tutorial](./2021-09-CAMS-Air-Quality-Data-Access.ipynb) on access and visualisation of CAMS global forecast and reanalysis data
-This Jupyter notebook tutorial demonstrates how to access CAMS global atmospheric composition forecasts and CAMS global reanalysis data, using the Atmosphere Data Store (ADS) API. It also shows how to use Python to create basic visualisations.
+## Tutorials on CAMS data
 
-The tutorial was developed for a training event in September 2021 entitled, "Introduction and Access to Global Air Quality Forecasting Data and Tools". The event was organised together with the NASA Applied Remote Sensing Training (ARSET) Program. Please see more detials on this event **[here](https://appliedsciences.nasa.gov/join-mission/training/english/arset-introduction-and-access-global-air-quality-forecasting-data-and)**.
+#### Introduction to the Atmosphere Data Store
+* [Atmosphere Data Store - Introduction](./CAMS_atmosphere-data-store.ipynb)
 
-Run the tutorial here: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ecmwf-projects/copernicus-training/HEAD?urlpath=lab/tree/2021-09-CAMS-Air-Quality-Data-Access.ipynb), or view a **[rendered version here](https://nbviewer.jupyter.org/github/ecmwf-projects/copernicus-training/blob/master/2021-09-CAMS-Air-Quality-Data-Access.ipynb)**.
+#### Application examples
+* [CAMS Atmospheric Composition Data Access and Analysis Tutorial](./CAMS_atmospheric-composition.ipynb)
+* [CAMS dust monitoring](./CAMS_dust-monitoring.ipynb)
+* [CAMS wildfire emissions](./CAMS_fire-monitoring.ipynb)
+* [CAMS ozone monitoring](./CAMS_ozone.ipynb)
+* [CAMS global reanalysis (EAC4) monthly averaged fields](./CAMS_global-reanalysis.ipynb)
+* [CAMS cross-section plot of sulphur dioxide (SO<sub>2</sub>) for La Palma volcanic eruption in October 2021](./CAMS_vertical-cross-section-volcanic-eruption.ipynb)
+* [CAMS European air quality index (EAQI)](./CAMS_European-air-quality-index.ipynb)
 
----
 
-## 2021-02-Copernicus-ECMWF-data-tutorial
-### [Tutorial](./2021-02-Copernicus-ECMWF-data-tutorial.ipynb) on access and processing of C3S and CAMS data
-This Jupyter notebook tutorial provides step by step instructions on how to access C3S and CAMS data from the various catalogues, how to carry-out basic processing, such as calculation of climatology and anomalies, and how to visualise the data. The data includes C3S ERA5 reanalysis data of soil moisture, CAMS European Air Quality Forecast data for dust and PM10, and CAMS Global Near-Real-Time data for total Aerosol Optical Depth (AOD).
+## Tutorials on both C3S and CAMS data
+* [Tutorial on Copernicus ECMWF Data Access](./Copernicus-ECMWF-data-tutorial_2021-02.ipynb)
 
-The tutorial was developed for a training event to data journalists on 23 February 2021.
 
-Run the tutorial here: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ecmwf-projects/copernicus-training/HEAD?urlpath=lab/tree/2021-02-Copernicus-ECMWF-data-tutorial.ipynb), or here: [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ecmwf-projects/copernicus-training/blob/master/2021-02-Copernicus-ECMWF-data-tutorial.ipynb), or view a **[rendered version here](https://nbviewer.jupyter.org/github/ecmwf-projects/copernicus-training/blob/master/2021-02-Copernicus-ECMWF-data-tutorial.ipynb)**.
+## How to use these tutorials
+These tutorials are in the form of [Jupyter notebooks](https://jupyter.org/). You will not need to install any software as there are a number of free cloud-based services to create, edit, run and export Jupyter notebooks. Here are some examples:
 
----
+|Binder|Kaggle|Colab|NBViewer|
+|:-:|:-:|:-:|:-:|
+|[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/)|[![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code)|[![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/)|[![NBViewer](https://raw.githubusercontent.com/ecmwf-projects/copernicus-training/master/img/nbviewer_badge.svg)](https://nbviewer.org/)|
+|(Binder may take some time to load the notebooks, so please be patient!)|(before you can run the notebooks in Kaggle, you will need to login/register, and switch on the internet via *settings*)|(In addition to the libraries specified in each notebook, you may need to install some additional ones using the command `!pip install (package name)`|(this will not run the notebooks, only render them)|
 
-## 2021-02-C3S-climate-extremes
-### [Tutorial](./2021-02-C3S-climate-extremes.ipynb) on C3S climate data access and analysis of climate extremes
-This Jupyter notebook tutorial shows you how to access ERA5 data using the CDS API and how to analyse extreme values associated with a particular event (extreme temperature in Northern France in September 2020). The tutorial was developed for an online WEkEO training event on 12 November 2020.
+If you would like to run the notebooks in your own environment, we suggest you install [Anaconda](https://docs.anaconda.com/anaconda/install/), which contains most of the libraries you will need. You will also need to install [Xarray](http://xarray.pydata.org/en/stable/) for working with multidimensional data in netcdf files, and the CDS/ADS API (`pip install cdsapi`) for downloading data programatically from the CDS & ADS.
 
-Run the tutorial here: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ecmwf-projects/copernicus-training/HEAD?urlpath=lab/tree/2021-02-C3S-climate-extremes.ipynb), or here: [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ecmwf-projects/copernicus-training/blob/master/2021-02-C3S-climate-extremes.ipynb), or view a **[rendered version here](https://nbviewer.jupyter.org/github/ecmwf-projects/copernicus-training/blob/master/2021-02-C3S-climate-extremes.ipynb)**.
-
----
-
-## 2020-11-C3S-data-tutorial-italiano
-### [Tutorial](./2020-11-C3S-data-tutorial-italiano.ipynb) in Italian on data and tools provided by C3S - Tutorial sull'uso dei dati e strumenti forniti dal C3S
-This Jupyter notebook tutorial is in Italian and features and introduction to the Climate Data Store (CDS), the Copernicus Knowledge Base, the CDS Toolbox and API. The tutorial was developed for a training to Italian masters students on 19 November 2020.
-
-Run the tutorial here: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ecmwf-projects/copernicus-training/HEAD?urlpath=lab/tree/2020-11-C3S-data-tutorial-italiano.ipynb), or here: [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ecmwf-projects/copernicus-training/blob/master/2020-11-C3S-data-tutorial-italiano.ipynb), or view a **[rendered version here](https://nbviewer.jupyter.org/github/ecmwf-projects/copernicus-training/blob/master/2020-11-C3S-data-tutorial-italiano.ipynb)**.
-
----
-
-## 2020-11-C3S-climate-indices
-### [Tutorial](2020-11-C3S-climatology-and-trends.ipynb) on calculating a climate index with data from C3S
-This Jupyter notebook tutorial shows you how to create an index for wind chill from UERRA reanalysis data of temperature and wind speed. The tutorial was developed for an online WEkEO training event on 12 November 2020.
-
-Run the tutorial here: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ecmwf-projects/copernicus-training/HEAD?urlpath=lab/tree/2020-11-C3S-climate-indices.ipynb), or here: [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ecmwf-projects/copernicus-training/blob/master/2020-11-C3S-climate-indices.ipynb), or view a **[rendered version here](https://nbviewer.jupyter.org/github/ecmwf-projects/copernicus-training/blob/master/2020-11-C3S-climate-indices.ipynb)**.
-
----
-
-## 2020-11-C3S-climatology-and-trends
-### [Tutorial](https://github.com/ecmwf-projects/copernicus-training/blob/master/2020-11-C3S-climate-indices.ipynb) on analysing climatologies and trends in C3S ERA5 reanalysis data
-This Jupyter notebook tutorial demonstrates you how to access ERA5 data using the CDS API and how to calculate climatologies and trends of near-surface air temperature. The tutorial was developed for an online WEkEO training event on 12 November 2020.
-
-Run the tutorial here: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ecmwf-projects/copernicus-training/HEAD?urlpath=lab/tree/2020-11-C3S-climatology-and-trends.ipynb), or here: [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ecmwf-projects/copernicus-training/blob/master/2020-11-C3S-climatology-and-trends.ipynb), or view a **[rendered version here](https://nbviewer.jupyter.org/github/ecmwf-projects/copernicus-training/blob/master/2020-11-C3S-climatology-and-trends.ipynb)**.
+This training material is made freely available on the [ecmwf-projects](https://github.com/ecmwf-projects) Github space under a [Apache 2.0 license](./LICENSE).

@@ -14,9 +14,9 @@ The tutorials are designed for anyone interested in using C3S & CAMS data and ha
 
 #### Analysis examples - Climate reanalysis data
 * [C3S Climate reanalysis - Tutorial on analysis of climatologies and trends in ERA5 climate reanalysis data](https://nbviewer.jupyter.org/github/ecmwf-projects/copernicus-training/blob/master/C3S_climatology.ipynb)
-* [C3S Climate reanalysis - Analysis of the September 2020 European heatwave using data from the Copernicus Climate Change Service](https://nbviewer.jupyter.org/github/ecmwf-projects/copernicus-training/blob/master/C3S_heatwave-analysis.ipynb)
+* [C3S Climate reanalysis - Analysis of the September 2020 European heatwave using C3S reanalysis data](https://nbviewer.jupyter.org/github/ecmwf-projects/copernicus-training/blob/master/C3S_heatwave-analysis.ipynb)
 * [C3S Climate reanalysis - Tutorial on calculating a climate index for wind chill](https://nbviewer.jupyter.org/github/ecmwf-projects/copernicus-training/blob/master/C3S_climate-indices.ipynb)
-* [C3S Climate reanalysis - Tutorial sull'uso dei dati del Copernicus Climate Change Service (C3S) (*in Italian*)](https://nbviewer.jupyter.org/github/ecmwf-projects/copernicus-training/blob/master/C3S_data-tutorial-italiano_2020-11.ipynb)
+* [C3S Climate reanalysis - Tutorial sull'uso dei dati del C3S (*in Italian*)](https://nbviewer.jupyter.org/github/ecmwf-projects/copernicus-training/blob/master/C3S_data-tutorial-italiano_2020-11.ipynb)
 
 #### Analysis examples - Climate projections
 * [C3S Climate projections - CMIP6 Global climate projections](https://nbviewer.jupyter.org/github/ecmwf-projects/copernicus-training/blob/master/C3S_CMIP6-climate-projections.ipynb)

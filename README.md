@@ -10,36 +10,36 @@ The tutorials are designed for anyone interested in using C3S & CAMS data and ha
 ## Tutorials on C3S data
 
 #### Introduction to the Climate Data Store (CDS)
-* [Climate Data Store - Introduction](./C3S_climate-data-store.ipynb)
+* [C3S Climate Data Store - Introduction](https://nbviewer.jupyter.org/github/ecmwf-projects/copernicus-training/blob/master/C3S_climate-data-store.ipynb)
 
 #### Analysis examples - Climate reanalysis data
-* [Climate reanalysis - Tutorial on analysis of climatologies and trends in ERA5 climate reanalysis data](./C3S_climatology.ipynb)
-* [Climate reanalysis - Analysis of the September 2020 European heatwave using data from the Copernicus Climate Change Service](./C3S_heatwave-analysis.ipynb)
-* [Climate reanalysis - Tutorial on calculating a climate index for wind chill](./C3S_climate-indices.ipynb)
-* [Climate reanalysis - Tutorial sull'uso dei dati del Copernicus Climate Change Service (C3S) (*in Italian*)](./C3S_data-tutorial-italiano_2020-11.ipynb)
+* [C3S Climate reanalysis - Tutorial on analysis of climatologies and trends in ERA5 climate reanalysis data](https://nbviewer.jupyter.org/github/ecmwf-projects/copernicus-training/blob/master/C3S_climatology.ipynb)
+* [C3S Climate reanalysis - Analysis of the September 2020 European heatwave using data from the Copernicus Climate Change Service](https://nbviewer.jupyter.org/github/ecmwf-projects/copernicus-training/blob/master/C3S_heatwave-analysis.ipynb)
+* [C3S Climate reanalysis - Tutorial on calculating a climate index for wind chill](https://nbviewer.jupyter.org/github/ecmwf-projects/copernicus-training/blob/master/C3S_climate-indices.ipynb)
+* [C3S Climate reanalysis - Tutorial sull'uso dei dati del Copernicus Climate Change Service (C3S) (*in Italian*)](https://nbviewer.jupyter.org/github/ecmwf-projects/copernicus-training/blob/master/C3S_data-tutorial-italiano_2020-11.ipynb)
 
 #### Analysis examples - Climate projections
-* [Climate projections - CMIP6 Global climate projections](./C3S_CMIP6-climate-projections.ipynb)
-* [Climate projections - CORDEX Regional climate projections](./C3S_CORDEX-regional-climate-projections.ipynb)
+* [C3S Climate projections - CMIP6 Global climate projections](https://nbviewer.jupyter.org/github/ecmwf-projects/copernicus-training/blob/master/C3S_CMIP6-climate-projections.ipynb)
+* [C3S Climate projections - CORDEX Regional climate projections](https://nbviewer.jupyter.org/github/ecmwf-projects/copernicus-training/blob/master/C3S_CORDEX-regional-climate-projections.ipynb)
 
 
 ## Tutorials on CAMS data
 
 #### Introduction to the Atmosphere Data Store
-* [Atmosphere Data Store - Introduction](./CAMS_atmosphere-data-store.ipynb)
+* [CAMS Atmosphere Data Store - Introduction](https://nbviewer.jupyter.org/github/ecmwf-projects/copernicus-training/blob/master/CAMS_atmosphere-data-store.ipynb)
 
 #### Application examples
-* [CAMS Atmospheric Composition Data Access and Analysis Tutorial](./CAMS_atmospheric-composition.ipynb)
-* [CAMS dust monitoring](./CAMS_dust-monitoring.ipynb)
-* [CAMS wildfire emissions](./CAMS_fire-monitoring.ipynb)
-* [CAMS ozone monitoring](./CAMS_ozone.ipynb)
-* [CAMS global reanalysis (EAC4) monthly averaged fields](./CAMS_global-reanalysis.ipynb)
-* [CAMS cross-section plot of sulphur dioxide (SO<sub>2</sub>) for La Palma volcanic eruption in October 2021](./CAMS_vertical-cross-section-volcanic-eruption.ipynb)
-* [CAMS European air quality index (EAQI)](./CAMS_European-air-quality-index.ipynb)
+* [CAMS Atmospheric Composition Data Access and Analysis Tutorial](https://nbviewer.jupyter.org/github/ecmwf-projects/copernicus-training/blob/master/CAMS_atmospheric-composition.ipynb)
+* [CAMS dust monitoring](https://nbviewer.jupyter.org/github/ecmwf-projects/copernicus-training/blob/master/CAMS_dust-monitoring.ipynb)
+* [CAMS wildfire emissions](https://nbviewer.jupyter.org/github/ecmwf-projects/copernicus-training/blob/master/CAMS_fire-monitoring.ipynb)
+* [CAMS ozone monitoring](https://nbviewer.jupyter.org/github/ecmwf-projects/copernicus-training/blob/master/CAMS_ozone.ipynb)
+* [CAMS global reanalysis (EAC4) monthly averaged fields](https://nbviewer.jupyter.org/github/ecmwf-projects/copernicus-training/blob/master/CAMS_global-reanalysis.ipynb)
+* [CAMS cross-section plot of sulphur dioxide (SO<sub>2</sub>) for La Palma volcanic eruption in October 2021](https://nbviewer.jupyter.org/github/ecmwf-projects/copernicus-training/blob/master/CAMS_vertical-cross-section-volcanic-eruption.ipynb)
+* [CAMS European air quality index (EAQI)](https://nbviewer.jupyter.org/github/ecmwf-projects/copernicus-training/blob/master/CAMS_European-air-quality-index.ipynb)
 
 
 ## Tutorials on both C3S and CAMS data
-* [Tutorial on Copernicus ECMWF Data Access](./Copernicus-ECMWF-data-tutorial_2021-02.ipynb)
+* [Tutorial on Copernicus ECMWF Data Access](https://nbviewer.jupyter.org/github/ecmwf-projects/copernicus-training/blob/master/Copernicus-ECMWF-data-tutorial_2021-02.ipynb)
 
 
 ## How to use these tutorials

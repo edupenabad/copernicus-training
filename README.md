@@ -13,7 +13,7 @@ These tutorials are in the form of [Jupyter notebooks](https://jupyter.org/). Yo
 |Binder|Kaggle|Colab|Nbviewer|
 |:-:|:-:|:-:|:-:|
 |[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/)|[![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code)|[![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/)|[![NBViewer](https://raw.githubusercontent.com/ecmwf-projects/copernicus-training/master/img/nbviewer_badge.svg)](https://nbviewer.org/)|
-|Binder may take some time to load the notebooks, so please be patient!|Before you can run the notebooks in Kaggle, you will need to login/register, and switch on the internet via *settings*|In addition to the libraries specified in each notebook, you may need to install some additional ones using the command `!pip install (package name)`|Nbviewer will not run the notebooks, only render them|
+|Binder may take some time to load the notebooks, so please be patient!|Before you can run the notebooks in Kaggle, you will need to login/register, and switch on the internet via *settings*|You will need a Google account to run the notebooks in Google Colab. Some packages may need to be installed using the command `!pip install (package name)`|Nbviewer will not run the notebooks, only render them|
 
 If you would like to run the notebooks in your own environment, we suggest you install [Anaconda](https://docs.anaconda.com/anaconda/install/), which contains most of the libraries you will need. You will also need to install [Xarray](http://xarray.pydata.org/en/stable/) for working with multidimensional data in netcdf files, and the CDS/ADS API (`pip install cdsapi`) for downloading data programatically from the CDS & ADS.
 

@@ -35,6 +35,9 @@ This training material is made freely available on the [ecmwf-projects](https://
 * [C3S Climate projections - CMIP6 Global climate projections](https://nbviewer.jupyter.org/github/ecmwf-projects/copernicus-training/blob/master/C3S_CMIP6-climate-projections.ipynb)
 * [C3S Climate projections - CORDEX Regional climate projections](https://nbviewer.jupyter.org/github/ecmwf-projects/copernicus-training/blob/master/C3S_CORDEX-regional-climate-projections.ipynb)
 
+#### Analysis examples - Seasonal forecasts
+* [C3S Seasonal forecasts - Introduction to calculating seasonal forecast anomalies from C3S data](https://nbviewer.jupyter.org/github/ecmwf-projects/copernicus-training/blob/master/C3S_seasonal-forecasts-anomalies.ipynb)
+
 
 ## Tutorials on CAMS data
 
